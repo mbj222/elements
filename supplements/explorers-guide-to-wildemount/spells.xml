@@ -16,7 +16,7 @@
             <set name="keywords">force,dunamancy,graviturgy</set>
             <set name="level">8</set>
             <set name="school" addition="Dunamancy">Evocation</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">150 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -38,8 +38,8 @@
             <set name="keywords">dunamancy</set>
             <set name="level">2</set>
             <set name="school" addition="Dunamancy">Divination</set>
-            <set name="time">1 azione</set>
-            <set name="duration">1 ora</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -58,7 +58,7 @@
             <set name="keywords">dunamancy,chronurgy</set>
             <set name="level">1</set>
             <set name="school" addition="Dunamancy">Divination</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">8 hours</set>
             <set name="range">Touch</set>
             <set name="hasVerbalComponent">true</set>
@@ -80,9 +80,9 @@
             <set name="keywords">force,dunamancy,graviturgy</set>
             <set name="level">6</set>
             <set name="school" addition="Dunamancy">Evocation</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
-            <set name="range">Incantatore (100-foot line)</set>
+            <set name="range">Self (100-foot line)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
@@ -101,7 +101,7 @@
             <set name="keywords">force,dunamancy,graviturgy</set>
             <set name="level">4</set>
             <set name="school" addition="Dunamancy">Evocation</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
             <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -123,8 +123,8 @@
             <set name="keywords">dunamancy,graviturgy</set>
             <set name="level">2</set>
             <set name="school" addition="Dunamancy">Transmutation</set>
-            <set name="time">1 azione</set>
-            <set name="duration">1 ora</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
             <set name="range">Touch</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -145,7 +145,7 @@
             <set name="keywords">force,dunamancy,graviturgy</set>
             <set name="level">1</set>
             <set name="school" addition="Dunamancy">Transmutation</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">1 round</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -167,9 +167,9 @@
             <set name="keywords">force, dunamancy</set>
             <set name="level">3</set>
             <set name="school" addition="Dunamancy">Evocation</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
-            <set name="range">Incantatore (30-foot cone)</set>
+            <set name="range">Self (30-foot cone)</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
@@ -189,7 +189,7 @@
             <set name="keywords">force,dunamancy,graviturgy</set>
             <set name="level">9</set>
             <set name="school" addition="Dunamancy">Evocation</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">1,000 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -219,7 +219,7 @@
             <set name="keywords">cold,psychic,force,dunamancy,chronurgy</set>
             <set name="level">8</set>
             <set name="school" addition="Dunamancy">Conjuration</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -240,7 +240,7 @@
             <set name="keywords">necrotic, dunamancy</set>
             <set name="level">0</set>
             <set name="school" addition="Dunamancy">Necromancy</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -281,7 +281,7 @@
             <set name="keywords">dunamancy</set>
             <set name="level">7</set>
             <set name="school" addition="Dunamancy">Necromancy</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -301,7 +301,7 @@
             <set name="keywords">necrotic,dunamancy,chronurgy</set>
             <set name="level">9</set>
             <set name="school" addition="Dunamancy">Necromancy</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
             <set name="range">90 feet</set>
             <set name="hasVerbalComponent">true</set>
@@ -322,9 +322,9 @@
             <set name="keywords">dunamancy</set>
             <set name="level">2</set>
             <set name="school" addition="Dunamancy">Conjuration</set>
-            <set name="time">1 azione</set>
+            <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 hour</set>
-            <set name="range">Incantatore</set>
+            <set name="range">Self</set>
             <set name="hasVerbalComponent">false</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>

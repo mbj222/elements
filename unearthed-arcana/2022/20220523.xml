@@ -700,7 +700,7 @@
 		<sheet display="false" />
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
-			<select type="Spell" name="1st-level Spell (Dreamer’s Magic)" supports="1,(Abiurazione||Divination)" />
+			<select type="Spell" name="1st-level Spell (Dreamer’s Magic)" supports="1,(Abjuration||Divination)" />
 			<select type="Feat Feature" name="Spellcasting Ability (Dreamer’s Magic)" supports="ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_INTELLIGENCE|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_WISDOM|ID_WOTC_UA20220523_FEAT_KEENNESS_OF_THE_STONE_GIANT_CHARISMA" />
 			<grant type="Vision" id="ID_VISION_LESSER_DARKVISION" />
 			<stat name="darkvision:range" value="30" bonus="base"/>
@@ -775,7 +775,7 @@
 				<tr><td>Enemy</td><td><i>Bane</i></td></tr>
 				<tr><td>Fire</td><td><i>Burning hands</i></td></tr>
 				<tr><td>Friend</td><td><i>Bless</i></td></tr>
-				<tr><td>Frost</td><td><i>Armatura di Agathys</i></td></tr>
+				<tr><td>Frost</td><td><i>Armor of Agathys</i></td></tr>
 				<tr><td>Hill</td><td><i>Goodberry</i></td></tr>
 				<tr><td>Journey</td><td><i>Longstrider</i></td></tr>
 				<tr><td>King</td><td><i>Command</i></td></tr>

@@ -383,9 +383,9 @@
 			<set name="keywords">hacking, Transmutation</set>
 			<set name="level">2</set>
 			<set name="school" addition="Technomagic">Transmutation</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -414,7 +414,7 @@
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -435,7 +435,7 @@
 			<set name="keywords">hacking, conjure, Conjuration</set>
 			<set name="level">4</set>
 			<set name="school" addition="Technomagic">Conjuration</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">10 minutes</set>
 			<set name="range">Touch</set>
 			<set name="hasVerbalComponent">true</set>
@@ -452,12 +452,12 @@
 			<p>This spell works to actively hide your presence within a computer system. For the spell's duration, you and any other users you choose on your local network gain a +10 bonus to Intelligence checks to avoid detection by administrators, knowbots, tracking software, and the like. Whenever you and your chosen users leave any computer system you are working in while this spell is in effect, all trace of your previous presence in that system is erased.</p>
 		</description>
 		<setters>
-			<set name="keywords">hacking, stealth, Abiurazione</set>
+			<set name="keywords">hacking, stealth, Abjuration</set>
 			<set name="level">2</set>
-			<set name="school" addition="Technomagic">Abiurazione</set>
-			<set name="time">1 azione</set>
+			<set name="school" addition="Technomagic">Abjuration</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -505,7 +505,7 @@
 			<set name="keywords">hacking, Enchantment</set>
 			<set name="level">3</set>
 			<set name="school" addition="Technomagic">Enchantment</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -528,7 +528,7 @@
 			<set name="school" addition="Technomagic">Divination</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -546,7 +546,7 @@
 			<set name="keywords">hacking, cameras, invisibility, Illusion</set>
 			<set name="level">3</set>
 			<set name="school" addition="Technomagic">Illusion</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -566,7 +566,7 @@
 			<set name="keywords">hacking, Transmutation</set>
 			<set name="level">0</set>
 			<set name="school" addition="Technomagic">Transmutation</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -585,8 +585,8 @@
 		<setters>
 			<set name="keywords">resistance, ballistics</set>
 			<set name="level">3</set>
-			<set name="school">Abiurazione</set>
-			<set name="time">1 azione</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 10 minutes</set>
 			<set name="range">Touch</set>
 			<set name="hasVerbalComponent">true</set>
@@ -606,7 +606,7 @@
 			<set name="keywords">hacking, remote, Transmutation</set>
 			<set name="level">1</set>
 			<set name="school" addition="Technomagic">Transmutation</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">10 minutes</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -626,7 +626,7 @@
 			<set name="keywords">hacking, Transmutation</set>
 			<set name="level">5</set>
 			<set name="school" addition="Technomagic">Transmutation</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -648,7 +648,7 @@
 			<set name="keywords">hacking</set>
 			<set name="level">4</set>
 			<set name="school">Enchantment</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="range">Touch</set>
 			<set name="hasVerbalComponent">true</set>

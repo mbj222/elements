@@ -1434,7 +1434,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 bonus action</set>
 			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>

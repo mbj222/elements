@@ -53,9 +53,9 @@
 		<setters>
 			<set name="level">0</set>
 			<set name="school">Evocation</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">Incantatore (5-foot radius)</set>
+			<set name="range">Self (5-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -75,7 +75,7 @@
 			<set name="school">Conjuration</set>
 			<set name="time">1 minute</set>
 			<set name="duration">24 hours</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -92,7 +92,7 @@
 		<setters>
 			<set name="level">1</set>
 			<set name="school">Enchantment</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Intantaneous</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">false</set>
@@ -111,9 +111,9 @@
 		<setters>
 			<set name="level">1</set>
 			<set name="school">Divination</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 10 minute</set>
-			<set name="range">Incantatore</set>
+			<set name="range">Self</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -150,9 +150,9 @@
 		<setters>
 			<set name="level">1</set>
 			<set name="school">Illusion</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 10 minute</set>
-			<set name="range">Incantatore (30-foot radius)</set>
+			<set name="range">Self (30-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -168,8 +168,8 @@
 		</description>
 		<setters>
 			<set name="level">0</set>
-			<set name="school">Abiurazione</set>
-			<set name="time">1 azione</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
 			<set name="duration">1 round</set>
 			<set name="range">Touch</set>
 			<set name="hasVerbalComponent">true</set>
@@ -196,7 +196,7 @@
 		<setters>
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 azione</set>
+			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
