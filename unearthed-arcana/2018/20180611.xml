@@ -64,7 +64,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -80,7 +80,7 @@
 			<p>Starting at 6th level, you gain a benefit whenever you cast one of the spells granted by your Mark of the Ordning Feature.</p>
 			<p class="indent"><b><i>Cloud Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you can magically teleport as a bonus action. You teleport to an unoccupied space you can see that is no farther away than a number of feet equal to 10 + your Constitution modifier.</p>
 			<p class="indent"><b><i>Fire Giant.</i></b> You gain a bonus to the damage rolls of your Mark of the Ordning spells. The bonus equals your Constitution modifier (minimum of +1).</p>
-			<p class="indent"><b><i>Frost Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armor of Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1 ).</p>
+			<p class="indent"><b><i>Frost Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armatura di Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1 ).</p>
 			<p class="indent"><b><i>Hill Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you can target up to two creatures within 5 feet of you that you can see. Each target must succeed on a Strength saving throw against your spell save DC or be pushed a number of feet away from you equal to 5 + your Constitution modifier (minimum of +1). A target can choose to fail this save.</p>
 			<p class="indent"><b><i>Stone Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, you gain a bonus to AC equal to your Constitution modifier (minimum of +1) until the end of your next turn.</p>
 			<p class="indent"><b><i>Storm Giant.</i></b> Immediately after you cast any of your Mark of the Ordning spells, up to three creatures of your choice that you can see within 30 feet of you take lightning damage equal to your Constitution modifier (minimum of 1).</p>
@@ -152,7 +152,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -175,7 +175,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -198,7 +198,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -221,7 +221,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -244,7 +244,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -267,7 +267,7 @@
 				</thead>
 				<tr><td>Cloud Giant</td><td>fog cloud, minor illusion</td><td>invisibility</td></tr>
 				<tr><td>Fire Giant</td><td>burning hands, fire bolt</td><td>flaming sphere</td></tr>
-				<tr><td>Frost Giant</td><td>armor of Agathys, ray of frost</td><td>hold person</td></tr>
+				<tr><td>Frost Giant</td><td>armatura di Agathys, ray of frost</td><td>hold person</td></tr>
 				<tr><td>Hill Giant</td><td>heroism, shillelagh</td><td>enlarge/reduce</td></tr>
 				<tr><td>Stone Giant</td><td>entangle, resistance</td><td>spike growth</td></tr>
 				<tr><td>Storm Giant</td><td>shocking grasp, thunderwave</td><td>gust of wind</td></tr>
@@ -304,10 +304,10 @@
 	</element>
 	<element name="Soul of Lost Ostoria" type="Archetype Feature" source="Unearthed Arcana: Giant Soul Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_FROST_GIANT">
 		<description>
-			<p>Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armor of Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1).</p>
+			<p>Immediately after you cast any of your Mark of the Ordning spells, you gain temporary hit points equal to your Constitution modifier (minimum of 1). But if the spell is armatura di Agathys, you instead increase its temporary hit points by an amount equal to your Constitution modifier (minimum of 1).</p>
 		</description>
 		<sheet>
-			<description>Immediately after you cast any of your Mark of the Ordning spells, you gain {{soul of lost ostoria:constitution}} temporary hit points. But if the spell is armor of Agathys, you instead increase its temporary hit points by {{soul of lost ostoria:constitution}}.</description>
+			<description>Immediately after you cast any of your Mark of the Ordning spells, you gain {{soul of lost ostoria:constitution}} temporary hit points. But if the spell is armatura di Agathys, you instead increase its temporary hit points by {{soul of lost ostoria:constitution}}.</description>
 		</sheet>
 	</element>
 	<element name="Soul of Lost Ostoria" type="Archetype Feature" source="Unearthed Arcana: Giant Soul Sorcerer" id="ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_SOUL_OF_LOST_OSTORIA_HILL_GIANT">

@@ -391,7 +391,7 @@
             <set name="keywords"></set>
             <set name="level">0</set>
             <set name="school">Alchemy</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">Instantaneous</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">false</set>
@@ -413,7 +413,7 @@
             <set name="keywords"></set>
             <set name="level">0</set>
             <set name="school">Alchemy</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">Instantaneous</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">false</set>
@@ -435,9 +435,9 @@
             <set name="keywords"></set>
             <set name="level">0</set>
             <set name="school">Alchemy</set>
-            <set name="time">1 action</set>
-            <set name="duration">1 hour</set>
-            <set name="range">Self</set>
+            <set name="time">1 azione</set>
+            <set name="duration">1 ora</set>
+            <set name="range">Incantatore</set>
             <set name="hasVerbalComponent">false</set>
             <set name="hasSomaticComponent">false</set>
             <set name="hasMaterialComponent">true</set>
@@ -456,7 +456,7 @@
             <set name="keywords"></set>
             <set name="level">0</set>
             <set name="school">Alchemy</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">1 minute</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">false</set>
@@ -479,7 +479,7 @@
             <set name="school">Alchemy</set>
             <set name="time">1 bonus action</set>
             <set name="duration">1 minute</set>
-            <set name="range">Self</set>
+            <set name="range">Incantatore</set>
             <set name="hasVerbalComponent">false</set>
             <set name="hasSomaticComponent">false</set>
             <set name="hasMaterialComponent">true</set>
@@ -498,7 +498,7 @@
             <set name="keywords"></set>
             <set name="level">0</set>
             <set name="school">Alchemy</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">1 minute</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">false</set>
@@ -519,7 +519,7 @@
             <set name="keywords"></set>
             <set name="level">0</set>
             <set name="school">Alchemy</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">Instantaneous</set>
             <set name="range">30 feet</set>
             <set name="hasVerbalComponent">false</set>

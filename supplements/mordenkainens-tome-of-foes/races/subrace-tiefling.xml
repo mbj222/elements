@@ -165,7 +165,7 @@
 		<description>
 			<p>Frozen Stygia is ruled by Levistus, an archdevil known for offering bargains to those who face an inescapable doom.</p>
 			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 2, and your Constitution score increases by 1.</p>
-			<p class="indent"><b><i>Legacy of Stygia. </i></b>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armor of Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><b><i>Legacy of Stygia. </i></b>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armatura di Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet alt="Tiefling (Levistus)" display="false">
 			<description>Descended of Levistus</description>
@@ -181,10 +181,10 @@
 	</element>
    <element name="Legacy of Stygia" type="Racial Trait" source="Mordenkainen’s Tome of Foes" id="ID_WOTC_MTOF_RACIAL_TRAIT_LEVISTUS_LEGACY_OF_STYGIA">
 		<description>
-			<p>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armor of Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+			<p>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armatura di Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
 		</description>
 		<sheet>
-			<description>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armor of Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</description>
+			<description>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armatura di Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" />

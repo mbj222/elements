@@ -284,7 +284,7 @@
 			<set name="keywords">psychic</set>
 			<set name="level">0</set>
 			<set name="school">Enchantment</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="duration">1 round</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>

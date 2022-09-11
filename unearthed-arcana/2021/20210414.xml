@@ -793,7 +793,7 @@
 			<set name="school">Transmutation</set>
 			<set name="isRitual">false</set>
 			<set name="time">1 bonus action</set>
-			<set name="range">Self</set>
+			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -818,9 +818,9 @@
 		<setters>
 			<set name="keywords">cover, resistance, evasion</set>
 			<set name="level">6</set>
-			<set name="school">Abjuration</set>
+			<set name="school">Abiurazione</set>
 			<set name="isRitual">false</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -836,7 +836,7 @@
 		<description>
 			<p>The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn’t provoke opportunity attacks.</p>
 			<p class="indent">When you move within 5 feet of a creature or object that isn’t being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. Additionally, the spell deals an additional 1d6 fire damage for each slot level above 3rd.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. Additionally, the spell deals an additional 1d6 fire damage for each slot level above 3rd.</p>
 		</description>
 		<setters>
 			<set name="keywords">dragon, speed, fire</set>
@@ -844,7 +844,7 @@
 			<set name="school">Transmutation</set>
 			<set name="isRitual">false</set>
 			<set name="time">1 bonus action</set>
-			<set name="range">Self</set>
+			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -858,15 +858,15 @@
 		<supports>Sorcerer, Wizard, Constitution, Spell Saving Throw</supports>
 		<description>
 			<p>A burst of icy cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is covered in ice for 1 minute or until a creature uses its action to break the ice off itself or another creature. A creature covered in ice has its speed reduced to 0. On a successful save, a creature takes half as much damage with no additional effects.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.</p>
 		</description>
 		<setters>
 			<set name="keywords">cold</set>
 			<set name="level">2</set>
 			<set name="school">Evocation</set>
 			<set name="isRitual">false</set>
-			<set name="time">1 action</set>
-			<set name="range">Self (15-foot cone)</set>
+			<set name="time">1 azione</set>
+			<set name="range">Incantatore (15-foot cone)</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -896,7 +896,7 @@
 			<set name="level">2</set>
 			<set name="school">Illusion</set>
 			<set name="isRitual">false</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
@@ -912,14 +912,14 @@
 		<description>
 			<p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter the creature’s name. If the named target is within range, it gains no benefit from cover or invisibility as the lance homes in on it. If the named target isn’t within range, the lance dissipates, and the spell slot is not expended.</p>
 			<p class="indent">The target must succeed on an Intelligence saving throw or take 10d6 psychic damage and be incapacitated until the start of your next turn.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</p>
 		</description>
 		<setters>
 			<set name="keywords">incapacitated</set>
 			<set name="level">4</set>
 			<set name="school">Enchantment</set>
 			<set name="isRitual">false</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -945,7 +945,7 @@
 			<set name="level">5</set>
 			<set name="school">Conjuration</set>
 			<set name="isRitual">false</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>

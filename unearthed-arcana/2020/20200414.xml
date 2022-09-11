@@ -532,8 +532,8 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">4</set>
-			<set name="school">Abjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Abiurazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">30 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -555,7 +555,7 @@
 			<set name="keywords">psychic</set>
 			<set name="level">0</set>
 			<set name="school">Enchantment</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">60 feet</set>
 			<set name="duration">1 round</set>
 			<set name="hasVerbalComponent">true</set>
@@ -577,7 +577,7 @@
 			<set name="keywords">psychic</set>
 			<set name="level">2</set>
 			<set name="school">enchantment</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">1 round</set>
 			<set name="hasVerbalComponent">true</set>

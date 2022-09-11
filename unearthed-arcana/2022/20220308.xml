@@ -728,7 +728,7 @@
 			The spell’s spellcasting ability is Intelligence.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="2nd Level Spell (Protective Magic)" supports="2,(Abjuration||Conjuration)" />
+			<select type="Spell" name="2nd Level Spell (Protective Magic)" supports="2,(Abiurazione||Conjuration)" />
 			<stat name="ua:adept of the white robes:ability" value="intelligence:modifier" bonus="ability" />
 		</rules>
 	</element>
@@ -743,7 +743,7 @@
 			The spell’s spellcasting ability is Wisdom.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="2nd Level Spell (Protective Magic)" supports="2,(Abjuration||Conjuration)" />
+			<select type="Spell" name="2nd Level Spell (Protective Magic)" supports="2,(Abiurazione||Conjuration)" />
 			<stat name="ua:adept of the white robes:ability" value="wisdom:modifier" bonus="ability" />
 		</rules>
 	</element>
@@ -758,7 +758,7 @@
 			The spell’s spellcasting ability is Charisma.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="2nd Level Spell (Protective Magic)" supports="2,(Abjuration||Conjuration)" />
+			<select type="Spell" name="2nd Level Spell (Protective Magic)" supports="2,(Abiurazione||Conjuration)" />
 			<stat name="ua:adept of the white robes:ability" value="charisma:modifier" bonus="ability" />
 		</rules>
 	</element>
@@ -1010,7 +1010,7 @@
 		<sheet display="false" />
 		<rules>
 			<select type="Spell" name="Cantrip (Initiate of High Sorcery)" supports="ID_PHB_SPELL_PRODUCE_FLAME|ID_PHB_SPELL_RESISTANCE|ID_PHB_SPELL_SPARE_THE_DYING" />
-			<select type="Spell" name="1st Level Spell (Initiate of High Sorcery)" supports="1,(Abjuration||Conjuration),Wizard" />
+			<select type="Spell" name="1st Level Spell (Initiate of High Sorcery)" supports="1,(Abiurazione||Conjuration),Wizard" />
 		</rules>
 	</element>
 

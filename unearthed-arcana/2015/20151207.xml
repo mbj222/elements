@@ -34,7 +34,7 @@
 			<set name="keywords">summon, demon</set>
 			<set name="level">4</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="duration">Up to 10 minutes</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -57,7 +57,7 @@
 			<set name="keywords">summon, demon</set>
 			<set name="level">7</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -74,13 +74,13 @@
 			<p>You summon up to a total of eight manes or dretches that appear in unoccupied spaces you can see within range. A manes or dretch disappears when it drops to 0 hit points or when the spell ends.</p>
 			<p class="indent">The demons are hostile to all creatures. Roll initiative for the summoned demons as a group, which has its own turns. The demons attack the nearest non-demons to the best of their ability.</p>
 			<p class="indent">As part of casting the spell, you can scribe a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. The summoned demons cannot cross the circle or target anyone in it while the spell lasts. Using the material component in this manner consumes it.</p>
-			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-­two demons.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 6th level or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-­two demons.</p>
 		</description>
 		<setters>
 			<set name="keywords">summon, demon</set>
 			<set name="level">3</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -102,7 +102,7 @@
 			<set name="keywords">summon, demon</set>
 			<set name="level">4</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -125,7 +125,7 @@
 			<set name="keywords">summon, demon</set>
 			<set name="level">5</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>

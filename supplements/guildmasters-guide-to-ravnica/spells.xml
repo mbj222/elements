@@ -18,9 +18,9 @@
             <set name="keywords">memory</set>
             <set name="level">0</set>
             <set name="school">Enchantment</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">Up to 8 hours</set>
-            <set name="range">Self</set>
+            <set name="range">Incantatore</set>
             <set name="hasVerbalComponent">false</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
@@ -47,13 +47,13 @@
                 <tr><td>8</td><td>Thunder</td></tr>
             </table>
             <p class="indent">If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.</p>
-            <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</p>
+            <p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</p>
         </description>
         <setters>
             <set name="keywords">acid,cold,fire,force,lightning,poison,psychic,thunder</set>
             <set name="level">1</set>
             <set name="school">Evocation</set>
-            <set name="time">1 action</set>
+            <set name="time">1 azione</set>
             <set name="duration">Instantaneous</set>
             <set name="range">120 feet</set>
             <set name="hasVerbalComponent">true</set>

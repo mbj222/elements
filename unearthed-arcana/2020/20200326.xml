@@ -30,8 +30,8 @@
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Evocation</set>
-			<set name="time">1 action</set>
-			<set name="range">Self (30-foot line)</set>
+			<set name="time">1 azione</set>
+			<set name="range">Incantatore (30-foot line)</set>
 			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -58,7 +58,7 @@
 			<set name="keywords"></set>
 			<set name="level">6</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="hasVerbalComponent">true</set>
@@ -106,7 +106,7 @@
 			<set name="keywords"></set>
 			<set name="level">4</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -131,7 +131,7 @@
 			<set name="keywords"></set>
 			<set name="level">2</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -156,7 +156,7 @@
 			<set name="keywords"></set>
 			<set name="level">5</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -181,7 +181,7 @@
 			<set name="keywords"></set>
 			<set name="level">4</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -206,7 +206,7 @@
 			<set name="keywords"></set>
 			<set name="level">3</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -231,7 +231,7 @@
 			<set name="keywords"></set>
 			<set name="level">6</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -256,7 +256,7 @@
 			<set name="keywords"></set>
 			<set name="level">3</set>
 			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
@@ -281,7 +281,7 @@
 			<set name="keywords"></set>
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="hasVerbalComponent">true</set>
