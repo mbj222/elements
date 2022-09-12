@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells</name>
-		<update version="0.5.2.2">
+		<update version="0.5.2.3">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/mbj222/elements/master/core/players-handbook/spells.xml" />
 		</update>
 	</info>
@@ -16,10 +16,10 @@
 		<setters>
 			<set name="keywords">acid</set>
 			<set name="level">0</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -40,7 +40,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -62,7 +62,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -84,7 +84,7 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -103,10 +103,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -125,10 +125,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -150,7 +150,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 24 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -172,7 +172,7 @@
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -207,7 +207,7 @@
 			<set name="level">5</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -229,7 +229,7 @@
 			<set name="level">5</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore (10-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -258,7 +258,7 @@
 			<set name="level">8</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore (10-foot-radius sphere)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -281,10 +281,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 ora</set>
 			<set name="duration">10 days</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -305,8 +305,8 @@
 			<set name="level">4</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -325,9 +325,9 @@
 		<setters>
 			<set name="keywords">teleport</set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">500 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -349,7 +349,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -388,9 +388,9 @@
 		<setters>
 			<set name="keywords">necrotic</set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (10-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -443,7 +443,7 @@
 			<set name="level">2</set>
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -463,7 +463,7 @@
 			<set name="level">4</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore (30-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -483,7 +483,7 @@
 			<set name="level">4</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore (30-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -501,9 +501,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore (30-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -524,8 +524,8 @@
 			<set name="level">5</set>
 			<set name="school">Transmutation</set>
 			<set name="time">8 hours</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -543,10 +543,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -564,8 +564,8 @@
 			<set name="keywords">force</set>
 			<set name="level">5</set>
 			<set name="school">Abiurazione</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -588,8 +588,8 @@
 			<set name="level">4</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -608,8 +608,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -628,8 +628,8 @@
 			<set name="level">3</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -648,8 +648,8 @@
 			<set name="level">2</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -676,8 +676,8 @@
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -703,9 +703,9 @@
 		<setters>
 			<set name="keywords">force</set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -724,10 +724,10 @@
 		<setters>
 			<set name="keywords">wall</set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -765,10 +765,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -790,8 +790,8 @@
 			<set name="level">4</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -809,9 +809,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -832,8 +832,8 @@
 			<set name="level">2</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -853,7 +853,7 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
+			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -873,7 +873,7 @@
 			<set name="level">2</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -892,9 +892,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -914,9 +914,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (15-foot cone)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -937,9 +937,9 @@
 		<setters>
 			<set name="keywords">lightning</set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -959,10 +959,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -981,9 +981,9 @@
 		<setters>
 			<set name="keywords">lightning</set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -993,19 +993,19 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Charm Person" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHARM_PERSON">
+	<element name="Charme Su Persone" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHARM_PERSON">
 		<supports>Bard, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
-			<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
+			<p>L'incantatore tenta di affascinare un umanoide entro gittata e che egli sia in grado di vedere. L'umanoide deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni stanno combattendo contro di lui. Se lo fallisce, è affascinato dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non lo danneggiano in qualche modo. La creatura affascinata considera l'incantatore una figura conosciuta e amichevole. Quando l'incantesimo termina, la creatura capirà di essere stata affascinata dall'incantatore.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 1°. Le creature devono trovarsi a non più di 9 metri l'una dall'altra quando l'incantatore le bersaglia.</p>
 		</description>
 		<setters>
 			<set name="keywords">charm</set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1045,10 +1045,10 @@
 		<setters>
 			<set name="keywords">acid,cold,fire,lightning,poison,thunder</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1068,7 +1068,7 @@
 			<set name="level">6</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1088,7 +1088,7 @@
 			<set name="level">5</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore (30-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -1109,8 +1109,8 @@
 			<set name="keywords"></set>
 			<set name="level">3</set>
 			<set name="school">Divination</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">1 mile</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1131,8 +1131,8 @@
 			<set name="level">8</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 ora</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1150,10 +1150,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1173,9 +1173,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1207,24 +1207,24 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Command" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMMAND">
+	<element name="Comando" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMMAND">
 		<supports>Cleric, Paladin, Spell Saving Throw</supports>
 		<description>
-			<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.  Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can’t follow your command, the spell ends.</p>  
-			<p class="indent"><b><i>Approach.</i></b> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p>
-			<p class="indent"><b><i>Drop.</i></b> The target drops whatever it is holding and then ends its turn.</p>
-			<p class="indent"><b><i>Flee.</i></b> The target spends its turn moving away from you by the fastest available means.</p>
-			<p class="indent"><b><i>Grovel.</i></b> The target falls prone and then ends its turn.</p>
-			<p class="indent"><b><i>Halt.</i></b> The target doesn’t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
+			<p>L'incantatore rivolge un comando di una parola a una creatura entro gittata e che egli sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti obbedirà al comando nel proprio turno successivo. L'incantesimo non ha effetto se il bersaglio è un non morto, se non capisce il linguaggio dell'incantatore o se il comando di quest'ultimo si rivela dannoso in modo diretto. Di seguito sono descritti alcuni tipici comandi assieme ai loro effetti. L'incantatore può impartire un comando diverso da quelli descritti di seguito. In quel caso è il DM a determinare come si comporta il bersaglio. Se il bersaglio non può eseguire il comando, l'incantesimo termina.</p>  
+			<p class="indent"><b><i>Avvicinati.</i></b> Il bersaglio si muove verso l'incantatore seguendo il percorso più breve e diretto, terminando il suo turno se giunge entro 1,5 metri da lui.</p>
+			<p class="indent"><b><i>Lascia.</i></b> Il bersaglio lascia cadere ciò che stava impugnando, poi termina il suo turno.</p>
+			<p class="indent"><b><i>Fuggi.</i></b> Il bersaglio usa il suo turno per allontanarsi dall'incantatore nel modo più rapido possibile.</p>
+			<p class="indent"><b><i>Supplica.</i></b> Il bersaglio cade a terra prono e termina il suo turno.</p>
+			<p class="indent"><b><i>Fermo.</i></b> Il bersaglio non si muove e non effettua azioni. Una creatura volante rimane in aria, se è in grado di farlo. Se deve muoversi per rimanere in aria, vola della distanza minima richiesta per rimanere in aria.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può influenzare una creatura aggiuntiva per ogni slot di livello superiore al 1°. Le creature devono trovarsi a non più di 9 metri l'una dall'altra quando l'incantatore le bersaglia.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 round</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1245,7 +1245,7 @@
 			<set name="level">5</set>
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
-			<set name="duration">1 minute</set>
+			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1274,7 +1274,7 @@
 			<set name="level">5</set>
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1284,19 +1284,19 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Compelled Duel" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMPELLED_DUEL">
+	<element name="Duello Obbligato" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMPELLED_DUEL">
 		<supports>Paladin, Spell Saving Throw</supports>
 		<description>
-			<p>You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn’t restrict the target’s movement for that turn.</p>
-			<p class="indent">The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.</p>
+			<p>L'incantatore tenta di obbligare una creatura a partecipare a un duello. Una creatura entro gittata e che egli sia in grado di vedere deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, è obbligata dall'imposizione divina dell'incantatore ad avvicinarsi a lui. Per la durata dell'incantesimo, la creatura subisce svantaggio ai tiri per colpire contro le creature diverse dall'incantatore e deve effettuare un tiro salvezza ogni volta che tenta di muoversi fino a uno spazio più lontano di 9 metri da lui. Se supera il tiro salvezza, questo incantesimo non limita i movimenti della creatura per quel turno.</p>
+			<p class="indent">L'incantesimo termina se l'incantatore attacca una qualsiasi altra creatura, se lancia un incantesimo che bersaglia una creatura ostile diversa dal bersaglio, se una creatura a lui amichevole infligge danni al bersaglio o lancia un incantesimo dannoso su di esso, o se l'incantatore termina il proprio turno a più di 9 metri dal bersaglio.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="school">Ammaliamento</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1335,10 +1335,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1357,9 +1357,9 @@
 		<setters>
 			<set name="keywords">cold</set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (60-foot cone)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1387,10 +1387,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1417,10 +1417,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1437,9 +1437,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (60-foot cone)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1460,10 +1460,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1484,10 +1484,10 @@
 		<setters>
 			<set name="keywords">air,earth,fire,water</set>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1508,10 +1508,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1538,10 +1538,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1558,9 +1558,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1588,10 +1588,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1611,7 +1611,7 @@
 			<set name="level">5</set>
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
-			<set name="duration">1 minute</set>
+			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -1640,7 +1640,7 @@
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
 			<set name="duration">7 days</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1659,8 +1659,8 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
-			<set name="time">10 minutes</set>
+			<set name="school">Invocazione</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">10 days</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
@@ -1679,10 +1679,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1709,7 +1709,7 @@
 			<set name="level">4</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">300 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1756,7 +1756,7 @@
 			<set name="keywords"></set>
 			<set name="level">8</set>
 			<set name="school">Transmutation</set>
-			<set name="time">10 minutes</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">Concentration, up to 8 hours</set>
 			<set name="range">Incantatore (5-mile radius)</set>
 			<set name="hasVerbalComponent">true</set>
@@ -1801,8 +1801,8 @@
 			<set name="level">3</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 reaction, which you take when you see a creature within 60 feet of you casting a spell</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1819,10 +1819,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1844,8 +1844,8 @@
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1867,7 +1867,7 @@
 			<set name="level">6</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1899,7 +1899,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Special</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -1918,9 +1918,9 @@
 		<setters>
 			<set name="keywords">charm</set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1938,9 +1938,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -1959,10 +1959,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1980,9 +1980,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2002,10 +2002,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2025,7 +2025,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2044,10 +2044,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2069,7 +2069,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2090,9 +2090,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">7</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2111,10 +2111,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2131,9 +2131,9 @@
 		<setters>
 			<set name="keywords">thunder,radiant,necrotic</set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (30-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -2154,7 +2154,7 @@
 			<set name="level">1</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2175,7 +2175,7 @@
 			<set name="level">1</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2196,7 +2196,7 @@
 			<set name="level">1</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2220,7 +2220,7 @@
 			<set name="level">2</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2240,9 +2240,9 @@
 		<setters>
 			<set name="keywords">teleport</set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">500 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -2288,8 +2288,8 @@
 			<set name="level">6</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2311,7 +2311,7 @@
 			<set name="level">5</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2332,7 +2332,7 @@
 			<set name="level">3</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2351,10 +2351,10 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2375,7 +2375,7 @@
 			<set name="level">4</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2393,9 +2393,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2420,10 +2420,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2444,10 +2444,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2468,10 +2468,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2492,10 +2492,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2515,10 +2515,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2566,8 +2566,8 @@
 			<set name="level">0</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2590,9 +2590,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">500 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2611,9 +2611,9 @@
 		<setters>
 			<set name="keywords">force</set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2634,8 +2634,8 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2661,8 +2661,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2684,8 +2684,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2704,9 +2704,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -2726,10 +2726,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2746,10 +2746,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2793,10 +2793,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2814,8 +2814,8 @@
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2838,7 +2838,7 @@
 			<set name="level">6</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2859,8 +2859,8 @@
 			<set name="keywords"></set>
 			<set name="level">4</set>
 			<set name="school">Transmutation</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Instantaneous</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2879,10 +2879,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -2923,7 +2923,7 @@
 			<set name="level">3</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore (30-foot cone)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2943,8 +2943,8 @@
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 reaction, which you take when you or a creature within 60 feet of you falls</set>
-			<set name="duration">1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -2964,9 +2964,9 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">8</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -2988,7 +2988,7 @@
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3010,9 +3010,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 ora</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3022,22 +3022,22 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Find Steed" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIND_STEED">
+	<element name="Trova Cavalcatura" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIND_STEED">
 		<supports>Paladin</supports>
 		<description>
-			<p>You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose, such as a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.</p>
-			<p class="indent">Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.</p>
-			<p class="indent">When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.</p>
-			<p class="indent">While your steed is within 1 mile of you, you can communicate with each other telepathically.</p>
-			<p class="indent">You can’t have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear.</p>
+			<p>L'incantatore evoca uno spirito che assume la forma di una cavalcatura insolitamente forte, intelligente e fedele, stringendo con lei un legame duraturo. La cavalcatura appare in uno spazio libero entro gittata e assume una forma a scelta dell'incantatore tra un cavallo da guerra, un pony, un cammello, un alce o un mastino. (Il DM potrebbe consentire di evocare altri animali come cavalcature.) La cavalcatura usa le statistiche della forma scelta, anche se si tratta di un celestiale, un folletto o un immondo (a scelta dell'incantatore) anziché di un tipo normale. Inoltre, se la cavalcatura ha un'Intelligenza pari o inferiore a 5, la sua Intelligenza diventa 6 e ottiene la capacità di capire un linguaggio a scelta dell'incantatore e che l'incantatore sia in grado di parlare.</p>
+			<p class="indent">La cavalcatura serve l'incantatore sia in combattimento che in altri momenti, e grazie al legame istintivo che li unisce, i due combattono come un'unità perfettamente coesa. Quando l'incantatore è in sella alla cavalcatura, può fare in modo che ogni incantesimo che bersaglia solo se stesso bersagli anche la sua cavalcatura.</p>
+			<p class="indent">Quando la cavalcatura scende a O punti ferita, scompare, non lasciandosi dietro alcuna forma fisica. L'incantatore può anche congedare la sua cavalcatura in qualsiasi momento con un'azione, facendola scomparire. In ogni caso, un nuovo lancio di questo incantesimo evocherà la stessa cavalcatura, riportata al massimo dei suoi punti ferita.</p>
+			<p class="indent">Finché la cavalcatura si trova entro 1,5 km dall'incantatore, questi può comunicare con lei telepaticamente.</p>
+			<p class="indent">L'incantatore non può legarsi a più di una cavalcatura alla volta tramite questo incantesimo. Con un'azione, può liberare la cavalcatura dal suo legame in qualsiasi momento, facendola scomparire.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Conjuration</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="school">Evocazione</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3078,7 +3078,7 @@
 			<set name="level">2</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3099,8 +3099,8 @@
 			<set name="level">7</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3118,9 +3118,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3140,7 +3140,7 @@
 		<setters>
 			<set name="keywords">fire,cold</set>
 			<set name="level">4</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">10 minutes</set>
 			<set name="range">Incantatore</set>
@@ -3161,9 +3161,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">7</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3183,9 +3183,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3206,9 +3206,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3227,10 +3227,10 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3250,10 +3250,10 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">2</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3275,8 +3275,8 @@
 			<set name="level">6</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3296,8 +3296,8 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3315,9 +3315,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3339,9 +3339,9 @@
 			<set name="keywords">teleport</set>
 			<set name="level">6</set>
 			<set name="school">Abiurazione</set>
-			<set name="time">10 minutes</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">1 day</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3363,7 +3363,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">100 feet</set>
@@ -3387,7 +3387,7 @@
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
 			<set name="duration">8 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3408,7 +3408,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3425,9 +3425,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3449,8 +3449,8 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3470,10 +3470,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">9</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3493,10 +3493,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 minute</set>
 			<set name="duration">30 days</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3517,7 +3517,7 @@
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
 			<set name="duration">10 days</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3539,8 +3539,8 @@
 			<set name="level">4</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3581,7 +3581,7 @@
 			<set name="level">6</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore (10-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3609,7 +3609,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 ora</set>
 			<set name="duration">Until dispelled or triggered</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3629,8 +3629,8 @@
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3648,10 +3648,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3669,10 +3669,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3691,8 +3691,8 @@
 			<set name="level">4</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3717,8 +3717,8 @@
 			<set name="level">5</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3736,10 +3736,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3772,9 +3772,9 @@
 			<set name="keywords"></set>
 			<set name="level">6</set>
 			<set name="school">Abiurazione</set>
-			<set name="time">10 minutes</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">24 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3793,8 +3793,8 @@
 			<set name="level">0</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3812,7 +3812,7 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 round</set>
 			<set name="range">120 feet</set>
@@ -3835,9 +3835,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore (60-foot line)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -3856,9 +3856,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -3888,10 +3888,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">24 hours</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3910,7 +3910,7 @@
 			<set name="keywords"></set>
 			<set name="level">4</set>
 			<set name="school">Illusion</set>
-			<set name="time">10 minutes</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">24 hours</set>
 			<set name="range">300 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -3931,8 +3931,8 @@
 			<set name="level">6</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3952,8 +3952,8 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -3971,10 +3971,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -3992,10 +3992,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4016,8 +4016,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4035,10 +4035,10 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4056,10 +4056,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="school">Evocazione</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4077,10 +4077,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4089,24 +4089,25 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Hex" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HEX">
+	<element name="Sortilegio" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HEX">
 		<supports>Warlock</supports>
 		<description>
-			<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.</p>
-			<p class="indent">If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature. A remove curse cast on the target ends this spell early.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.</p>
+			<p>L'incantatore scaglia una maledizione su una creatura entro gittata e che egli sia in grado di vedere. Finché l'incantesimo non termina, l'incantatore infligge 1d6 danni necrotici extra al bersaglio ogni volta che lo colpisce con un attacco. Inoltre, quando l'incantatore lancia l'incantesimo, sceglie una caratteristica. Il bersaglio subisce svantaggio alle prove di caratteristica effettuate con la caratteristica scelta.</p>
+			<p class="indent">Se il bersaglio scende a O punti ferita prima che questo incantesimo termini, l'incantatore può usare un'azione bonus in un suo turno successivo per maledire una nuova creatura.</p>
+			<p class="indent">Un incantesimo <i>rimuovi maledizione</i> lanciato sul bersaglio termina questo incantesimo prematuramente.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° o 4° livello,può mantenere la concentrazione sull'incantesimo fino a un massimo di 8 ore. Quando usa uno slot incantesimo di 5° livello o superiore, può mantenere la concentrazione sull'incantesimo fino a un massimo di 24 ore.</p>
 		</description>
 		<setters>
 			<set name="keywords">necrotic,curse</set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 feet</set>
+			<set name="school">Ammaliamento</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">the petrified eye of a newt</set>
+			<set name="materialComponent">l'occhio pietrificato di un girino</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -4120,10 +4121,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4132,23 +4133,23 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Hold Person" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLD_PERSON">
+	<element name="Blocca Persone" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLD_PERSON">
 		<supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
-			<p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you can target on additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p>
+			<p>L'incantatore sceglie un umanoide entro gittata e che egli sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti sarà paralizzato per la durata dell'incantesimo. Alla fine di ogni suo turno, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Se lo supera, l'incantesimo su di esso termina.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare un umanoide aggiuntivo per ogni slot di livello superiore al 2°. Gli umanoidi devono trovarsi a non più di 9 metri l'uno dall'altro quando l'incantatore li bersaglia.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a small, straight piece of iron</set>
+			<set name="materialComponent">una piccola sbarra di ferro</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -4163,7 +4164,7 @@
 			<set name="level">8</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4182,9 +4183,9 @@
 		<setters>
 			<set name="keywords">cold,acid</set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4204,9 +4205,9 @@
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Divination</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">90 feet</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4226,7 +4227,7 @@
 			<set name="level">3</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4246,9 +4247,9 @@
 		<setters>
 			<set name="keywords">cold</set>
 			<set name="level">4</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">300 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4269,8 +4270,8 @@
 			<set name="level">1</set>
 			<set name="school">Divination</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4293,7 +4294,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 minute</set>
 			<set name="duration">10 days</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4326,7 +4327,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4345,9 +4346,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">8</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4368,8 +4369,8 @@
 			<set name="level">1</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4388,9 +4389,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">300 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4411,8 +4412,8 @@
 			<set name="level">2</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4431,8 +4432,8 @@
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">Touch</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4454,8 +4455,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4474,8 +4475,8 @@
 			<set name="keywords"></set>
 			<set name="level">5</set>
 			<set name="school">Divination</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Instantaneous</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4495,10 +4496,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4517,7 +4518,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">8 hours</set>
 			<set name="range">Incantatore (10-foot-radius hemisphere)</set>
@@ -4539,8 +4540,8 @@
 			<set name="level">2</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4561,8 +4562,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4580,10 +4581,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4604,8 +4605,8 @@
 			<set name="keywords">lightning</set>
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4625,9 +4626,9 @@
 		<setters>
 			<set name="keywords">lightning</set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (100-foot line)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4647,7 +4648,7 @@
 			<set name="level">2</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4669,7 +4670,7 @@
 			<set name="level">4</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4691,7 +4692,7 @@
 			<set name="level">2</set>
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4713,7 +4714,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4733,7 +4734,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4752,10 +4753,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4827,9 +4828,9 @@
 		<setters>
 			<set name="keywords">force</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4852,7 +4853,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -4871,9 +4872,9 @@
 			<set name="keywords"></set>
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4895,7 +4896,7 @@
 			<set name="level">3</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -4914,10 +4915,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4934,10 +4935,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">9</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4955,10 +4956,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -4979,10 +4980,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5001,10 +5002,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5026,7 +5027,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5044,10 +5045,10 @@
 		<setters>
 			<set name="keywords">acid</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5067,8 +5068,8 @@
 			<set name="level">0</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 minute</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5107,9 +5108,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">9</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">1 mile</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5130,7 +5131,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5152,8 +5153,8 @@
 			<set name="level">0</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5174,7 +5175,7 @@
 			<set name="keywords"></set>
 			<set name="level">7</set>
 			<set name="school">Illusion</set>
-			<set name="time">10 minutes</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">10 days</set>
 			<set name="range">Sight</set>
 			<set name="hasVerbalComponent">true</set>
@@ -5199,7 +5200,7 @@
 			<set name="level">2</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
+			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5221,7 +5222,7 @@
 			<set name="level">5</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5239,9 +5240,9 @@
 		<setters>
 			<set name="keywords">teleport</set>
 			<set name="level">2</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Instantaneous</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -5264,10 +5265,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5288,9 +5289,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5310,10 +5311,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5332,7 +5333,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">24 hours</set>
 			<set name="range">300 feet</set>
@@ -5364,7 +5365,7 @@
 			<set name="keywords"></set>
 			<set name="level">4</set>
 			<set name="school">Abiurazione</set>
-			<set name="time">10 minutes</set>
+			<set name="time">10 minuti</set>
 			<set name="duration">24 hours</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -5384,10 +5385,10 @@
 		<setters>
 			<set name="keywords">force</set>
 			<set name="level">7</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5431,7 +5432,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5454,7 +5455,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5474,9 +5475,9 @@
 		<setters>
 			<set name="keywords">cold</set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">300 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5497,10 +5498,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5518,10 +5519,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5540,7 +5541,7 @@
 			<set name="level">2</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5562,7 +5563,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5585,8 +5586,8 @@
 			<set name="level">2</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5606,7 +5607,7 @@
 			<set name="level">4</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5628,7 +5629,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 minute</set>
 			<set name="duration">1 ora</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5650,10 +5651,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="school">Evocazione</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5675,7 +5676,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 ora</set>
 			<set name="duration">24 hours</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5694,10 +5695,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5719,7 +5720,7 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione or 8 hours</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5738,9 +5739,9 @@
 		<setters>
 			<set name="keywords">poison</set>
 			<set name="level">0</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5764,8 +5765,8 @@
 			<set name="level">4</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -5782,10 +5783,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">9</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5802,10 +5803,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">9</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5823,10 +5824,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5844,10 +5845,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="school">Invocazione</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5901,9 +5902,9 @@
 		<setters>
 			<set name="keywords">fire, acid, lightning, poison, cold</set>
 			<set name="level">7</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (60 foot cone)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -5935,7 +5936,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -5954,7 +5955,7 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">0</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">10 minutes</set>
 			<set name="range">Incantatore</set>
@@ -6022,8 +6023,8 @@
 			<set name="level">3</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6032,23 +6033,23 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Protection from Evil and Good" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+	<element name="Protezione dal Bene e dal Male" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
 		<supports>Cleric, Paladin, Warlock, Wizard</supports>
 		<description>
-			<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p>
-			<p class="indent">The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>
+			<p>Finché l'incantesimo non termina, una creatura consenziente toccata dall'incantatore è protetta da certi tipi di creature: aberrazioni, celestiali, elementali, folletti, immondi e non morti.</p>
+			<p class="indent">La protezione conferisce vari benefici. Le creature di quei tipi subiscono svantaggio ai tiri per colpire contro il bersaglio. Inoltre, il bersaglio non può essere affascinato, posseduto o spaventato da quelle creature. Se il bersaglio è già affascinato, posseduto o spaventato da una di quelle creature, dispone di vantaggio al nuovo tiro salvezza contro l'effetto rilevante.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">holy water or powdered silver and iron, which the spell consumes</set>
+			<set name="materialComponent">acqua santa o polvere d'argento e di ferro, che l'incantesimo consuma</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -6065,7 +6066,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6084,7 +6085,7 @@
 			<set name="level">1</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6107,8 +6108,8 @@
 			<set name="level">5</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 ora</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6129,7 +6130,7 @@
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6149,8 +6150,8 @@
 			<set name="level">2</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6168,10 +6169,10 @@
 		<setters>
 			<set name="keywords">cold</set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6191,8 +6192,8 @@
 			<set name="level">1</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6213,7 +6214,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 minute</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6253,8 +6254,8 @@
 			<set name="level">5</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 ora</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6273,8 +6274,8 @@
 			<set name="level">3</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6293,8 +6294,8 @@
 			<set name="level">0</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6317,8 +6318,8 @@
 			<set name="level">7</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 ora</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6339,7 +6340,7 @@
 			<set name="level">7</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">100 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6359,8 +6360,8 @@
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6383,7 +6384,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6401,10 +6402,10 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6423,9 +6424,9 @@
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Abiurazione</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6444,9 +6445,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6484,8 +6485,8 @@
 			<set name="keywords"></set>
 			<set name="level">5</set>
 			<set name="school">Divination</set>
-			<set name="time">10 minutes</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="time">10 minuti</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6504,9 +6505,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -6550,7 +6551,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6568,7 +6569,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 round</set>
 			<set name="range">Unlimited</set>
@@ -6593,7 +6594,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6617,7 +6618,7 @@
 			<set name="level">9</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6637,10 +6638,10 @@
 		<setters>
 			<set name="keywords">thunder</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6669,22 +6670,22 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Shield of Faith" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SHIELD_OF_FAITH">
+	<element name="Scudo della Fede" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SHIELD_OF_FAITH">
 		<supports>Cleric, Paladin</supports>
 		<description>
-			<p>A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</p>
+			<p>Un campo di energia scintillante si materializza attorno a una creatura scelta dall'incantatore entro gittata, conferendole un bonus di +2 alla CA per la durata dell'incantesimo.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
 			<set name="school">Abiurazione</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a small parchment with a bit of holy text written on it</set>
+			<set name="materialComponent">una piccola pergamena su cui sia stato scritto un frammento di un testo sacro</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -6698,9 +6699,9 @@
 			<set name="keywords"></set>
 			<set name="level">0</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">1 minute</set>
-			<set name="range">Touch</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6718,10 +6719,10 @@
 		<setters>
 			<set name="keywords">lightning</set>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6740,7 +6741,7 @@
 			<set name="level">2</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6763,7 +6764,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 10 minute</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6786,7 +6787,7 @@
 			<set name="school">Illusion</set>
 			<set name="time">12 hours</set>
 			<set name="duration">Until dispelled</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6806,10 +6807,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">1 minute</set>
-			<set name="range">90 feet</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6828,9 +6829,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6853,7 +6854,7 @@
 			<set name="level">3</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6873,8 +6874,8 @@
 			<set name="level">0</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -6958,8 +6959,8 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -6979,7 +6980,7 @@
 			<set name="level">2</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -6999,9 +7000,9 @@
 		<setters>
 			<set name="keywords">radiant, necrotic</set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore (15-foot-radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7014,18 +7015,18 @@
 	<element name="Spiritual Weapon" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
 		<supports>Cleric, Melee, Spell Attack</supports>
 		<description>
-			<p>You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.</p>
-			<p class="indent">As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.</p>
-			<p class="indent">The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell’s effect resemble that weapon.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd.</p>
+			<p>L'incantatore crea entro gittata un'arma fluttuante spettrale che permane per la durata dell'incantesimo o finché l'incantatore non lancia di nuovo questo incantesimo. Quando lancia questo incantesimo, l'incantatore può effettuare un attacco in mischia con questo incantesimo contro una creatura entro 1,5 metri dall'arma. Se colpisce, il bersaglio subisce 1d8 danni da forza + il modificatore di caratteristica da incantatore.</p>
+			<p class="indent">Con un'azione bonus nel suo turno, l'incantatore può muovere l'arma di un massimo di 6 metri e ripetere l'attacco contro una creatura situata entro 1,5 metri da essa.</p>
+			<p class="indent">L'arma può assumere la forma che l'incantatore preferisce. I chierici di una divinità associata a un tipo particolare di arma (come per esempio St.Cuthbert, noto per la sua mazza, o Thor per il suo martello) impartiranno all'arma creata da questo incantesimo la forma di tale arma.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, i danni aumentano di 1d8 per ogni due slot incantesimo superiori al 2°.</p>
 		</description>
 		<setters>
 			<set name="keywords">force</set>
 			<set name="level">2</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">1 minute</set>
-			<set name="range">60 feet</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">1 minuto</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -7042,9 +7043,9 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">4</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -7064,10 +7065,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">90 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">27 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7086,8 +7087,8 @@
 			<set name="level">4</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7106,8 +7107,8 @@
 			<set name="level">4</set>
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">Touch</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7129,9 +7130,9 @@
 		<setters>
 			<set name="keywords">thunder, acid, cold, lightning</set>
 			<set name="level">9</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Sight</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7152,10 +7153,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7174,9 +7175,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore (60-foot line)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7196,9 +7197,9 @@
 		<setters>
 			<set name="keywords">radiant</set>
 			<set name="level">8</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">150 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7218,9 +7219,9 @@
 			<set name="keywords"></set>
 			<set name="level">5</set>
 			<set name="school">Transmutation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Touch</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7252,7 +7253,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Until dispelled or triggered</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7270,10 +7271,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7297,8 +7298,8 @@
 			<set name="level">5</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -7316,7 +7317,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
 			<set name="range">Unlimited</set>
@@ -7356,9 +7357,9 @@
 		<setters>
 			<set name="keywords">teleport,force</set>
 			<set name="level">7</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">10 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -7378,7 +7379,7 @@
 		<setters>
 			<set name="keywords">teleport</set>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">1 round</set>
 			<set name="range">10 feet</set>
@@ -7400,10 +7401,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7431,7 +7432,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -7451,8 +7452,8 @@
 			<set name="level">0</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7461,17 +7462,17 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Thunderous Smite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_THUNDEROUS_SMITE">
+	<element name="Punizione Tonante" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_THUNDEROUS_SMITE">
 		<supports>Paladin, Spell Saving Throw</supports>
 		<description>
-			<p>The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.</p>
+			<p>La prossima volta che l'incantatore colpisce con un attacco con un'arma da mischia entro la durata di questo ìncantesimo, la sua arma vibra di un rombo di tuono udibile entro 90 metri e l'attacco infligge 2d6 danni da tuono extra al bersaglio. Inoltre, se il bersaglio è una creatura, deve superare un tiro salvezza su Forza, altrimenti è spinto 3 metri più lontano dall'incantatore e buttato a terra prono.</p>
 		</description>
 		<setters>
 			<set name="keywords">thunder</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -7491,9 +7492,9 @@
 		<setters>
 			<set name="keywords">thunder</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore (15-foot cube)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7514,7 +7515,7 @@
 			<set name="level">9</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -7535,7 +7536,7 @@
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7552,7 +7553,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 round</set>
 			<set name="range">10 feet</set>
@@ -7573,9 +7574,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7603,8 +7604,8 @@
 			<set name="level">9</set>
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7625,8 +7626,8 @@
 			<set name="level">9</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 ora</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">Touch</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7646,7 +7647,7 @@
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7666,7 +7667,7 @@
 			<set name="school">Divination</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 round</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -7686,7 +7687,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">8</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Concentration, up to 6 rounds</set>
 			<set name="range">Sight</set>
@@ -7708,10 +7709,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7731,7 +7732,7 @@
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7750,10 +7751,10 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">0</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Istantanea</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -7773,9 +7774,9 @@
 		<setters>
 			<set name="keywords">fire</set>
 			<set name="level">4</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7794,9 +7795,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7817,9 +7818,9 @@
 		<setters>
 			<set name="keywords">cold</set>
 			<set name="level">6</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7842,9 +7843,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7865,9 +7866,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7889,7 +7890,7 @@
 			<set name="school">Abiurazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">Touch</set>
+			<set name="range">Contatto</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7909,7 +7910,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7930,7 +7931,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7951,10 +7952,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 hour</set>
-			<set name="range">60 feet</set>
+			<set name="duration">Concentrazione, fino a 1 ora</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -7973,7 +7974,7 @@
 			<set name="level">9</set>
 			<set name="school">Illusion</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -7995,7 +7996,7 @@
 			<set name="school">Transmutation</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
-			<set name="range">30 feet</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -8014,9 +8015,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -8045,9 +8046,9 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">9</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -8066,10 +8067,10 @@
 		<setters>
 			<set name="keywords">lightning</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
+			<set name="school">Invocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">30 feet</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
+			<set name="range">9 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
@@ -8087,9 +8088,9 @@
 		<setters>
 			<set name="keywords">teleport</set>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 azione</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 			<set name="range">5 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -8107,9 +8108,9 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 bonus action</set>
-			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione bonus</set>
+			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -8128,10 +8129,10 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Enchantment</set>
+			<set name="school">Ammaliamento</set>
 			<set name="time">1 azione</set>
 			<set name="duration">10 minutes</set>
-			<set name="range">60 feet</set>
+			<set name="range">18 metri</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
