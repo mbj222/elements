@@ -4,7 +4,7 @@
 		<name>Spells</name>
 		<description>The Spells Arcane Tradition from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.0.5">
+		<update version="0.0.5.1">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/mbj222/elements/master/supplements/tashas-cauldron-of-everything/spells.xml" />
 		</update>
 	</info>
@@ -18,7 +18,7 @@
 		</description>
 		<setters>
 			<set name="level">9</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">1 bonus action</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -28,21 +28,21 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>	
-	<element name="Booming Blade" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE">
+	<element name="Lama Roboante" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE">
 		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
 		<description>
-			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8 thunder damage, and the spell ends.</p>
-			<p class="indent">This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target on a hit, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).</p>
+			<p>Il personaggio impugna l'arma prevista dall'incantesimo ed effettua con questa un attacco in mischia contro una creatura nel raggio di 1,5 metri da lui. Se colpisce, il bersaglio subisce gli effetti normalmente inflitti dall'attacco con quest'arma e resta avvinto dal suo roboante flusso di energia fino all'inizio del turno successivo dell'incantatore. Se il bersaglio cerca di muoversi di 1,5 metri o più prima di  qallora, subisce 1d8 danni da tuono e l'incantesimo termina.</p>
+			<p class="indent">Il danno inflitto da questo incantesimo aumenta man mano che il personaggio raggiunge determinati livelli. Al 5° livello l'attacco in mischia, quando va a segno, infligge 1d8 danni da tuono extra e, se il bersaglio prova a muoversi, i danni da tuono aumentano a 2d8. Il tiro per i danni di entrambi gli attacchi aumenta di 1d8 quando si raggiungono l'11° livello (2d8 e 3d8) e il 17° livello (3d8 e 4d8)</p>
 		</description>
 		<setters>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 action</set>
-			<set name="range">Self (5-foot radius)</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione</set>
+			<set name="range">Incantatore (raggio di 1,5 metri)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a melee weapon worth at least 1 sp</set>
+			<set name="materialComponent">un'arma da mischia del valore di almeno 1 ma</set>
 			<set name="duration">1 round</set>
 		</setters>
 	</element>
@@ -55,7 +55,7 @@
 		</description>
 		<setters>
 			<set name="level">7</set>
-			<set name="school">Conjuration</set>
+			<set name="school">Evocazione</set>
 			<set name="time">10 minutes</set>
 			<set name="range">20 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -73,14 +73,14 @@
 		</description>
 		<setters>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 action</set>
-			<set name="range">Self (5-foot radius)</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione</set>
+			<set name="range">Incantatore (raggio di 1,5 metri)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">a melee weapon worth at least 1 sp</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 		</setters>
 	</element>
 	<element name="Intellect Fortress" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
@@ -92,7 +92,7 @@
 		<setters>
 			<set name="level">3</set>
 			<set name="school">Abjuration</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">30 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -108,13 +108,13 @@
 		</description>
 		<setters>
 			<set name="level">0</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 action</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">Self (15-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 		</setters>
 	</element>
 	<element name="Mind Sliver" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
@@ -126,7 +126,7 @@
 		<setters>
 			<set name="level">0</set>
 			<set name="school">Enchantment</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">60 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
@@ -166,8 +166,8 @@
 		</description>
 		<setters>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -189,8 +189,8 @@
 		</description>
 		<setters>
 			<set name="level">2</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -213,8 +213,8 @@
 		</description>
 		<setters>
 			<set name="level">5</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -236,8 +236,8 @@
 		</description>
 		<setters>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -259,8 +259,8 @@
 		</description>
 		<setters>
 			<set name="level">4</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -282,8 +282,8 @@
 		</description>
 		<setters>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -305,8 +305,8 @@
 		</description>
 		<setters>
 			<set name="level">6</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -328,8 +328,8 @@
 		</description>
 		<setters>
 			<set name="level">3</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 action</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -352,7 +352,7 @@
 		<setters>
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -362,20 +362,21 @@
 			<set name="isConcentration">true</set>
 		</setters>
 	</element>
-	<element name="Sword Burst" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SWORD_BURST">
+	<element name="Turbine di Spade" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SWORD_BURST">
 		<supports>Artificer, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
-			<p>You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 force damage This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+			<p>L'incantatore crea un cerchio di spade spettrali che vorticano attorno a lui temporaneamente. Ogni altra creatura situata entro 1,5 metri da lui deve superare un tiro salvezza su Destrezza, altrimenti ognuna di loro subisce 1d6 danni da forza.</p>
+			<p class="indent">I danni di questo incantesimo aumentano di 1d6 quando l'incantatore arriva al 5° livello (2d6), 11° livello (3d6) e 17° livello (4d6).</p>
 		</description>
 		<setters>
 			<set name="level">0</set>
-			<set name="school">Conjuration</set>
-			<set name="time">1 Action</set>
-			<set name="range">Self (5-foot radius)</set>
+			<set name="school">Evocazione</set>
+			<set name="time">1 azione</set>
+			<set name="range">Incantatore (raggio di 1,5 metri)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
-			<set name="duration">Instantaneous</set>
+			<set name="duration">Istantanea</set>
 		</setters>
 	</element>
 	<element name="Tasha’s Caustic Brew" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW">
@@ -386,8 +387,8 @@
 		</description>
 		<setters>
 			<set name="level">1</set>
-			<set name="school">Evocation</set>
-			<set name="time">1 action</set>
+			<set name="school">Invocazione</set>
+			<set name="time">1 azione</set>
 			<set name="range">Self (30-foot line)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -406,7 +407,7 @@
 		<setters>
 			<set name="level">2</set>
 			<set name="school">Enchantment</set>
-			<set name="time">1 action</set>
+			<set name="time">1 azione</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>

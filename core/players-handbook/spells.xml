@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells</name>
-		<update version="0.5.2.3">
+		<update version="0.5.2.4">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/mbj222/elements/master/core/players-handbook/spells.xml" />
 		</update>
 	</info>
@@ -7012,7 +7012,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Spiritual Weapon" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
+	<element name="Arma Spirituale" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
 		<supports>Cleric, Melee, Spell Attack</supports>
 		<description>
 			<p>L'incantatore crea entro gittata un'arma fluttuante spettrale che permane per la durata dell'incantesimo o finché l'incantatore non lancia di nuovo questo incantesimo. Quando lancia questo incantesimo, l'incantatore può effettuare un attacco in mischia con questo incantesimo contro una creatura entro 1,5 metri dall'arma. Se colpisce, il bersaglio subisce 1d8 danni da forza + il modificatore di caratteristica da incantatore.</p>
