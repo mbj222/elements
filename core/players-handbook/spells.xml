@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Spells</name>
-		<update version="0.5.2.4">
+		<update version="0.5.2.5">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/mbj222/elements/master/core/players-handbook/spells.xml" />
 		</update>
 	</info>
@@ -303,7 +303,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">9 metri</set>
@@ -441,7 +441,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
@@ -646,7 +646,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Contatto</set>
@@ -756,11 +756,11 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Bless" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLESS">
+	<element name="Benedizione" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLESS">
 		<supports>Cleric, Paladin</supports>
 		<description>
-			<p>You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+			<p>L'incantatore benedice fino a tre creature a sua scelta entro gittata. Ogni volta che un bersaglio effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini può tirare un d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot superiore al 1°.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -772,7 +772,7 @@
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a sprinkling of holy water</set>
+			<set name="materialComponent">uno spruzzo di acqua santa</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -871,7 +871,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
@@ -1108,7 +1108,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">10 minuti</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">1 mile</set>
@@ -1195,7 +1195,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 round</set>
 			<set name="range">Incantatore (15-foot cone)</set>
@@ -1243,7 +1243,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
@@ -1272,7 +1272,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
@@ -1314,7 +1314,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">Incantatore</set>
@@ -1609,7 +1609,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
@@ -1896,7 +1896,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Special</set>
 			<set name="range">9 metri</set>
@@ -2152,7 +2152,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
@@ -2173,7 +2173,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
@@ -2194,7 +2194,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
@@ -2218,7 +2218,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore</set>
@@ -2252,17 +2252,17 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Disguise Self" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISGUISE_SELF">
+	<element name="Camuffare Se Stesso" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISGUISE_SELF">
 		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
 		<description>
-			<p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can’t change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p>
-			<p class="indent">The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p>
-			<p class="indent">To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>
+			<p>L'incantatore assume un aspetto diverso (che include i suoi abiti, armatura, armi e altri oggetti personali prescelti sulla sua persona) per la durata dell'incantesimo o finché egli non usa la sua azione per terminarlo. Può apparire 30 cm più alto o più basso e apparire magro, grasso o di corporatura normale. Non può cambiare il suo tipo di corpo, quindi deve adottare una forma che usi la stessa disposizione basilare degli arti. Entro questi limiti, la natura dell'illusione dipende da lui.</p>
+			<p class="indent">I cambiamenti apportati da questo incantesimo non passano il vaglio di un'ispezione fisica. Per esempio, se l'incantatore usa questo incantesimo per aggiungere un cappello in testa, gli oggetti passerebbero attraverso il cappello e chiunque tocchi l'incantatore non sentirebbe nulla o toccherebbe la testa e i capelli dell'incantatore. Se l'incantatore usa questo incantesimo per apparire più magro rispetto alla realtà, quando qualcuno protende la mano per toccarlo, urta l'incantatore quando la sua mano è apparentemente ancora a mezz'aria.</p>
+			<p class="indent">Per capire che l'incantatore è camuffato, una creatura può usare la sua azione per ispezionare il suo aspetto e deve superare una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">Incantatore</set>
@@ -2373,7 +2373,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
@@ -2538,7 +2538,7 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">5</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">8 hours</set>
 			<set name="range">Special</set>
@@ -2921,7 +2921,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Incantatore (30-foot cone)</set>
@@ -3055,7 +3055,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Concentration, up to 1 day</set>
 			<set name="range">Incantatore</set>
@@ -3076,7 +3076,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">120 feet</set>
@@ -3384,7 +3384,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">9</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">8 hours</set>
 			<set name="range">Contatto</set>
@@ -3689,7 +3689,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Contatto</set>
@@ -3783,15 +3783,15 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Guidance" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUIDANCE">
+	<element name="Guida" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUIDANCE">
 		<supports>Cleric, Druid, Artificer</supports>
 		<description>
-			<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.</p>
+			<p>L'incantatore tocca una creatura consenziente. Una volta prima che l'incantesimo termini, il bersaglio può tirare un d4 e aggiungere il risultato a una prova di caratteristica a sua scelta. Può tirare il dado prima o dopo avere effettuato la prova di caratteristica. Dopodiché l'incantesimo termina.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">Contatto</set>
@@ -3806,8 +3806,8 @@
 	<element name="Guiding Bolt" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUIDING_BOLT">
 		<supports>Cleric, Ranged, Spell Attack</supports>
 		<description>
-			<p>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+			<p>Un lampo di luce sfreccia verso una creatura scelta dall'incantatore e situata entro gittata. L'incantatore effettua un attacco a distanza con questo incantesimo contro il bersaglio. Se lo colpisce, il bersaglio subisce 4d6 danni radiosi, e il successivo tiro per colpire effettuato contro il bersaglio entro la fine del turno successivo dell'incantatore dispone di vantaggio, grazie all'alone mistico di luce fioca che lo avvolge fino ad allora.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 1°.</p>
 		</description>
 		<setters>
 			<set name="keywords">radiant</set>
@@ -3909,7 +3909,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">10 minuti</set>
 			<set name="duration">24 hours</set>
 			<set name="range">300 feet</set>
@@ -3983,11 +3983,11 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Healing Word" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HEALING_WORD">
+	<element name="Parola Guaritrice" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HEALING_WORD">
 		<supports>Bard, Cleric, Druid</supports>
 		<description>
-			<p>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>
-			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</p>
+			<p>Una creatura scelta dall'incantatore entro gittata e che egli sia in grado di vedere recupera un ammontare di punti ferita pari a 1d4 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>
+			<p class="indent"><b><i>Ai Livelli Superiori.</i></b> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, l'ammontare di guarigione aumenta di 1d4 punti ferita per ogni slot di livello superiore al 1°.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -4204,7 +4204,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione bonus</set>
 			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">27 metri</set>
@@ -4225,7 +4225,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
@@ -4268,7 +4268,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">Contatto</set>
@@ -4291,7 +4291,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">10 days</set>
 			<set name="range">Contatto</set>
@@ -4410,7 +4410,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Contatto</set>
@@ -4474,7 +4474,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">10 minuti</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
@@ -4646,7 +4646,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Istantanea</set>
 			<set name="range">Incantatore</set>
@@ -4668,7 +4668,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">4</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
@@ -4690,7 +4690,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
@@ -4850,7 +4850,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">Until dispelled</set>
 			<set name="range">9 metri</set>
@@ -4894,7 +4894,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
@@ -5151,7 +5151,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 minuto</set>
 			<set name="range">9 metri</set>
@@ -5174,7 +5174,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">10 minuti</set>
 			<set name="duration">10 days</set>
 			<set name="range">Sight</set>
@@ -5186,19 +5186,19 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mirror Image" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MIRROR_IMAGE">
+	<element name="Immagine Speculare" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MIRROR_IMAGE">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
-			<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can use your action to dismiss the illusory duplicates.</p>
-			<p class="indent">Each time a creature targets you with an attack during the spell’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.</p>
-			<p class="indent">If you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.</p>
-			<p class="indent">A duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.</p>
-			<p class="indent">A creature is unaffected by this spell if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>
+			<p>Tre duplicati illusori dell'incantatore compaiono nel suo spazio. Finché l'incantesimo non termina, i duplicati si muovono assieme a lui e imitano le sue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia quella vera. L'incantatore può usare la sua azione per congedare i duplicati illusori.</p>
+			<p class="indent">Ogni volta che una creatura bersaglia l'incantatore con un attacco, l'incantatore tira un d20 per determinare se l'attacco bersaglia invece uno dei duplicati.</p>
+			<p class="indent">Se l'incantatore possiede tre duplicati, deve ottenere al tiro un 6 o più per spostare il bersaglio dell'attacco su un duplicato. Se possiede due duplicati, deve ottenere al tiro un 8 o più. Se possiede un duplicato, deve ottenere al tiro un 11 o più.</p>
+			<p class="indent">La CA di un duplicato è pari a 10 + il modificatore di Destrezza dell'incantatore. Se un attacco colpisce un duplicato, esso viene distrutto. Un duplicato può essere distrutto solo da un attacco che lo colpisce. Ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p>
+			<p class="indent">Una creatura non è inftuenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come per esempio la vista cieca, o se può percepire le illusioni come false, nel caso sia dotata di visione del vero.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 minuto</set>
 			<set name="range">Incantatore</set>
@@ -5220,7 +5220,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 ora</set>
 			<set name="range">Incantatore</set>
@@ -5452,7 +5452,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">24 hours</set>
 			<set name="range">Contatto</set>
@@ -5531,10 +5531,10 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Pass without Trace" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+	<element name="Passare Senza Tracce" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
 		<supports>Druid, Ranger</supports>
 		<description>
-			<p>A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.</p>
+			<p>L'incantatore è avvolto da un velo d'ombra e di silenzio che impediste a lui e ai suoi compagni di essere individuati. Per la durata dell'incantesimo, ogni creatura da lui scelta e situata entro 9 metri da lui (incluso se stesso) ottiene un bonus di +10 alle prove di Destrezza (Furtività) e le sue tracce sono impossibili da seguire se non tramite mezzi magici. Una creatura che riceve questo bonus non lascia impronte o altre tracce del suo passaggio.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -5546,7 +5546,7 @@
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">ashes from a burned leaf of mistletoe and a sprig of spruce</set>
+			<set name="materialComponent">cenere di una foglia di vischio bruciata e un rametto di abete</set>
 			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -5584,7 +5584,7 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">18 metri</set>
@@ -5605,7 +5605,7 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">4</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>
@@ -5626,7 +5626,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 minute</set>
 			<set name="duration">1 ora</set>
 			<set name="range">9 metri</set>
@@ -5978,7 +5978,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Until dispelled</set>
 			<set name="range">120 feet</set>
@@ -6001,7 +6001,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 day</set>
 			<set name="range">500 miles</set>
@@ -6127,7 +6127,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">9 metri</set>
@@ -6393,11 +6393,11 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sacred Flame" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SACRED_FLAME">
+	<element name="Fiamma Sacra" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SACRED_FLAME">
 		<supports>Cleric, Spell Saving Throw</supports>
 		<description>
-			<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.</p>
-			<p class="indent">The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+			<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. li bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p>
+			<p class="indent">I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>
 		</description>
 		<setters>
 			<set name="keywords">radiant</set>
@@ -6414,11 +6414,11 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sanctuary" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SANCTUARY">
+	<element name="Santuario" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SANCTUARY">
 		<supports>Cleric, Artificer, Spell Saving Throw</supports>
 		<description>
-			<p>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.</p>
-			<p class="indent">If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends.</p>
+			<p>L'incantatore protegge una creatura situata entro gittata dagli attacchi. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo che infligge danni deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco. Questo incantesimo non protegge la creatura bersaglio dagli effetti ad area come l'esplosione di una palla di fuoco.</p>
+			<p class="indent">Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -6430,7 +6430,7 @@
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
-			<set name="materialComponent">a small silver mirror</set>
+			<set name="materialComponent">uno specchietto d'argento</set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -6484,7 +6484,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">10 minuti</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">Incantatore</set>
@@ -6525,7 +6525,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">Incantatore</set>
@@ -6548,7 +6548,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">5</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">8 hours</set>
 			<set name="range">9 metri</set>
@@ -6739,7 +6739,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">2</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 10 minuti</set>
 			<set name="range">120 feet</set>
@@ -6761,7 +6761,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 10 minute</set>
 			<set name="range">18 metri</set>
@@ -6784,7 +6784,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">7</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">12 hours</set>
 			<set name="duration">Until dispelled</set>
 			<set name="range">Contatto</set>
@@ -6892,7 +6892,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">1</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">10 minutes</set>
 			<set name="range">Incantatore</set>
@@ -7533,7 +7533,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">3</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">Contatto</set>
@@ -7644,7 +7644,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">6</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">1 ora</set>
 			<set name="range">Contatto</set>
@@ -7664,7 +7664,7 @@
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
-			<set name="school">Divination</set>
+			<set name="school">Divinazione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentration, up to 1 round</set>
 			<set name="range">9 metri</set>
@@ -7972,7 +7972,7 @@
 		<setters>
 			<set name="keywords">psychic</set>
 			<set name="level">9</set>
-			<set name="school">Illusion</set>
+			<set name="school">Illusione</set>
 			<set name="time">1 azione</set>
 			<set name="duration">Concentrazione, fino a 1 minuto</set>
 			<set name="range">120 feet</set>

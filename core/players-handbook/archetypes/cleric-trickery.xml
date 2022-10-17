@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.1.1">
 			<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/mbj222/elements/master/core/players-handbook/archetypes/cleric-trickery.xml" />
 		</update>
 	</info>
@@ -48,13 +48,13 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" level="17"/>
 		</rules>
 	</element>
-	<element name="Blessing of the Trickster" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
+	<element name="Benedizione dell'Ingannatore" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER</requirements>
 		<description>
 			<p>Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.</p>
 		</description>
-		<sheet action="Action">
-			<description>You can touch a willing creature other than yourself to give it advantage on Stealth checks. This blessing lasts for 1 hour or until you use this feature again.</description>
+		<sheet action="Azione">
+			<description>Puoi toccare una creatura consenziente diversa da sé e conferirle vantaggio alle prove di Destrezza (Furtività). Questa benedizione dura 1 ora o finché il chierico non utilizza di nuovo questo privilegio.</description>
 		</sheet>
 	</element>
 	<element name="Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
@@ -64,10 +64,9 @@
 			<p class="indent">The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.</p>
 			<p class="indent">For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p>
 		</description>
-		<sheet alt="Invoke Duplicity" action="Action" usage="Channel Divinity">
-			<description>You create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration.
-			The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.
-			For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</description>
+		<sheet alt="Invocare Duplicato" action="Azione" usage="Incanalare Divinità">
+			<description> Crei un'illusione perfettea di te stesso che dura per 1 minuto, o finchè non perdi concentrazione. L'illusione appare in uno spazio libero situato entro 9 metri dal chierico e che egli sia in grado di vedere. Come azione bonus nel suo turno, il chierico può muovere l'illusione di un massimo di 9 metri fino a uno spazio che egli sia in grado di vedere, ma l'illusione deve rimanere entro 36 metri da lui.
+			Per tutta la durata, il chierico può lanciare incantesimi come se si trovasse nello spazio dell'illusione, ma deve usare i propri sensi. Inoltre, quando sia il chierico che la sua illusione si trovano entro 1,5 metri da una creatura che sia in grado di vedere l'illusione, il chierico dispone di vantaggio ai tiri per colpire contro quella creatura, in quanto l'illusione distrae il bersaglio.</description>
 		</sheet>
 	</element>
 	<element name="Channel Divinity: Cloak of Shadows" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS">

@@ -4,7 +4,7 @@
 		<name>Dragonborn</name>
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="0.2.5">
+		<update version="0.2.5.1">
 			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/mbj222/elements/master/core/players-handbook/races/race-dragonborn.xml" />
 		</update>
 	</info>
@@ -35,7 +35,7 @@
 			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 30 feet.</p>
 			<p class="indent"><b><i>Draconic Ancestry.</i></b> You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
 			<p class="indent"><b><i>Breath Weapon.</i></b> You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
-			<p class="indent"><b><i>Damage Resistance.</i></b> You have resistance to the damage type associated with your draconic ancestry.</p>
+			<p class="indent"><b><i>Resistenza al Danni.</i></b> Un dragonide dispone di resistenza ai danni del tipo associato alla sua discendenza draconica.</p>
 			<p class="indent"><b><i>Languages.</i></b> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</p>
 		</description>
 		<sheet display="false" />
@@ -64,20 +64,20 @@
 			<select type="Race Variant" name="Dragonborn Variant" supports="Dragonborn" optional="true" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+	<element name="Discendenza Draconica" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
 		<description>
 			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
-			<h5>DRACONIC ANCESTRY</h5>
+			<h5>DISCENDENZA DRACONICA</h5>
 			<table>
 				<thead>
-					<tr><td>Dragon</td><td>Damage Type</td><td>Breath Weapon</td></tr>
+					<tr><td>Dragon</td><td>Damage Type</td><td>Arma a Soffio</td></tr>
 				</thead>
 				<tr><td>Black</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
 				<tr><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
 				<tr><td>Brass</td><td>Fire</td><td>5 by 30 ft. line (Dex. save)</td></tr>
 				<tr><td>Bronze</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
 				<tr><td>Copper</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
-				<tr><td>Gold</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Oro</td><td>Fuoco</td><td>Cono di 4,5 m (TS Destrezza)</td></tr>
 				<tr><td>Green</td><td>Poison</td><td>15 ft. cone (Con. save)</td></tr>
 				<tr><td>Red</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
 				<tr><td>Silver</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
@@ -85,17 +85,17 @@
 			</table>
 		</description>
 		<rules>
-			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry" />
+			<select type="Racial Trait" name="Discendenza Draconica" supports="Discendenza Draconica" />
 		</rules>
 	</element>
-	<element name="Breath Weapon" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+	<element name="Arma a Soffio" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
 		<description>
 			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
 			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
 			<p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Short Rest">
-			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}}</description>
+			<description>Esala energia distruttiva. La tua arma a soffio fa {{breath-weapon:dice count}}d{{breath-weapon:dice size}} danno da {{draconic-ancestry:damage type}} in un {{draconic-ancestry:breath}} TS {{breath-weapon:dc}}</description>
 		</sheet>
 		<rules>
 			<stat name="breath-weapon:dc" value="8" />
@@ -108,9 +108,9 @@
 			<stat name="breath-weapon:dice count" value="1" level="16" />
 		</rules>
 	</element>
-	<element name="Damage Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+	<element name="Resistenza ai Danni" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
 		<description>
-			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+			<p>Un dragonide dispone di resistenza ai danni del tipo associato alla sua discendenza draconica.</p>
 		</description>
 		<sheet>
 			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
@@ -124,8 +124,8 @@
 		</rules>
 	</element>
 
-	<element name="Draconic Ancestry (Black)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Black)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -138,8 +138,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Blue)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -152,8 +152,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Brass)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -166,8 +166,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Bronze)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -180,8 +180,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Copper)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -194,22 +194,22 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Oro)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
-		<sheet alt="Gold">
-			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		<sheet alt="Oro">
+			<description>La tua discendenza draconica è d'{{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è un   {{draconic-ancestry:breath}}.</description>
 		</sheet>
 		<rules>
-			<stat inline="true" name="draconic-ancestry" value="Gold"/>
+			<stat inline="true" name="draconic-ancestry" value="Oro"/>
 			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
-			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+			<stat inline="true" name="draconic-ancestry:breath" value="cono di 4,5 m (TS Destrezza)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Green)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -222,8 +222,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Red)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -236,8 +236,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (Silver)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
@@ -250,8 +250,8 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
-		<supports>Draconic Ancestry</supports>
+	<element name="Discendenza Draconica (White)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+		<supports>Discendenza Draconica</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
 		</description>
