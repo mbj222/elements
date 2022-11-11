@@ -94,7 +94,7 @@
 			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
 			<p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
 		</description>
-		<sheet action="Action" usage="1/Short Rest">
+		<sheet action="Azione" usage="1/Riposo Breve">
 			<description>Esala energia distruttiva. La tua arma a soffio fa {{breath-weapon:dice count}}d{{breath-weapon:dice size}} danno da {{draconic-ancestry:damage type}} in un {{draconic-ancestry:breath}} TS {{breath-weapon:dc}}</description>
 		</sheet>
 		<rules>
@@ -204,7 +204,7 @@
 		</sheet>
 		<rules>
 			<stat inline="true" name="draconic-ancestry" value="Oro"/>
-			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fuoco" />
 			<stat inline="true" name="draconic-ancestry:breath" value="cono di 4,5 m (TS Destrezza)" />
 		</rules>
 	</element>

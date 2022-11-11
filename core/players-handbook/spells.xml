@@ -3803,7 +3803,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Guiding Bolt" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUIDING_BOLT">
+	<element name="Dardo Tracciante" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUIDING_BOLT">
 		<supports>Cleric, Ranged, Spell Attack</supports>
 		<description>
 			<p>Un lampo di luce sfreccia verso una creatura scelta dall'incantatore e situata entro gittata. L'incantatore effettua un attacco a distanza con questo incantesimo contro il bersaglio. Se lo colpisce, il bersaglio subisce 4d6 danni radiosi, e il successivo tiro per colpire effettuato contro il bersaglio entro la fine del turno successivo dell'incantatore dispone di vantaggio, grazie all'alone mistico di luce fioca che lo avvolge fino ad allora.</p>
